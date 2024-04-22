@@ -9,7 +9,7 @@ export default function Menu(){
                 menu.map((m,i)=>{
                     return (
                         <div key={i} className="flex flex-col gap-3 bg-zinc-900 w-1/3 h-max rounded-lg p-3 text-zinc-200">
-                          <img src={m.img} alt="" className="w-full" />
+                          <img src={`/Plantilla_Restaurante${m.img}`} alt="" className="w-full" />
                           <h5 className="text-xl font-bold fuente2">{m.name}</h5>
 
                           <p className="text-green-400 w-full text-end px-2">${m.precio}</p>
