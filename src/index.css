@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.fondo{
+  background-image: url("/fondo.webp");
+  background-size: cover;
+  z-index: -10;
+}
+
+.fuente {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fuente2 {
+  font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Ancho de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Estilo del fondo de la barra de desplazamiento con opacidad */
+::-webkit-scrollbar-track {
+  background-color:#000;
+ 
+}
+
+/* Estilo del thumb (la parte móvil de la barra de desplazamiento) con opacidad */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(136, 136, 136, 0.2); /* Color con opacidad */
+
+}
+
+/* Cambio de color del thumb cuando está en hover con opacidad */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(85, 85, 85, 0.9); /* Color con opacidad */
+}
