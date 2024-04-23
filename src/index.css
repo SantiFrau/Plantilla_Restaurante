@@ -5,7 +5,7 @@
 
 /* Estilos para el fondo1 */
 .fondo {
-  background: url('fondo.webp') no-repeat center center fixed;
+  background: url('/Plantilla_Restaurante/fondo.webp') no-repeat center center fixed;
   background-size: cover;
   position: fixed;
   top: 0;
@@ -17,7 +17,7 @@
 
 /* Estilos para el fondo2 */
 .fondo2 {
-  background: url('fondo2.webp') no-repeat center center fixed;
+  background: url('/Plantilla_Restaurante/fondo2.webp') no-repeat center center fixed;
   background-size: cover;
   position: fixed;
   top: 0;
