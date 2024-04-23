@@ -47,6 +47,12 @@
 .box-shadow-w{
   box-shadow: 0px 0px 10px 1px #fff;
 }
+.box-shadow-b{
+  box-shadow: 0px 10px 10px 1px #000;
+}
+.card:hover .info {
+  opacity: 1;
+}
 
 .punto::before{
   content: "";

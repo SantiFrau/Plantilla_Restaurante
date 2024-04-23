@@ -2,6 +2,7 @@ import Menu from "./components/Menu"
 import Inicio from "./components/inicio"
 import Nav from "./components/nav"
 import About from "./components/about"
+import Footer from "./components/footer"
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
 
 
      <About></About>
+
+     <Footer></Footer>
     </>
   )
 }
