@@ -5,7 +5,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 export default function Footer(){
 
     return(
-        <footer id='contact' className='w-full h-max bg-black flex flex-row items-center justify-between px-20 py-10' >
+        <footer id='contact' className='w-full h-max bg-black flex flex-col gap-5 md:flex-row items-center justify-between md:px-20 py-10' >
            <div>
            <h4 className='w-full text-center text-4xl fuente text-zinc-200'>FastBurger</h4>
             <p className='text-zinc-300'>Lorem ipsum dolor | sit amet</p>
@@ -26,7 +26,7 @@ export default function Footer(){
             </ul>
            
           </div>
-            <div>
+            <div className='flex flex-col justify-center items-center'>
             <p className='text-zinc-500 pt-4'>Copyright © 2024 - FastBurger -</p>
             <p className='text-zinc-500'>Web desarrollada por Santiago Frau</p>
             </div>

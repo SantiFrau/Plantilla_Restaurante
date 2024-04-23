@@ -23,14 +23,16 @@ function App() {
 
 
       <Nav></Nav>
-     <Inicio></Inicio>
+      
+      <Inicio></Inicio>
+
+      <Menu></Menu>
+
+      <About></About>
+
+      <Footer></Footer>
        
-     <Menu></Menu>
-
-
-     <About></About>
-
-     <Footer></Footer>
+     
     </>
   )
 }
